@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Page non trouvée</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #0a0a0a;
+        color: #00ff88;
+        font-family: monospace, monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    .code-block {
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+        max-width: 600px;
+        width: 100%;
+        border-left: 4px solid #00ff88;
+        text-align: left;
+    }
+    .error-line {
+        margin: 10px 0;
+        white-space: pre-wrap;
+    }
+    .home-link {
+        color: #00ff88;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .home-link:hover {
+        text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9rem;
+        background-color: #111;
+        color: #777;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    footer a {
+        color: #00ff88;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<div class="code-block">
+    <div class="error-line">Oups... la page demandée est introuvable.</div>
+    <div class="error-line"><a class="home-link" href="index.html">Retourner à l'accueil</a></div>
+</div>
+
+<footer>
+    &copy; <a href="https://github.com/edgewave-solutions/404" target="_blank">404</a> by <a href="https://github.com/edgewave-solutions" target="_blank">Edgewave Solutions</a>
+</footer>
+
+</body>
+</html>
