@@ -24,4 +24,4 @@ Cette page HTML représente une **page d'erreur 404 moderne et sombre**, conçue
 
 ## Aperçu
 
-![Accéder à la démo](https://edgewave-solutions.github.io/404)
+[Accéder à la démo](https://edgewave-solutions.github.io/404)
