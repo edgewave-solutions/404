@@ -24,4 +24,4 @@ Cette page HTML représente une **page d'erreur 404 moderne et sombre**, conçue
 
 ## Aperçu
 
-![Exemple de page 404](https://via.placeholder.com/600x400?text=404+Page+Not+Found)
+![Accéder à la démo](https://edgewave-solutions.github.io/404)
